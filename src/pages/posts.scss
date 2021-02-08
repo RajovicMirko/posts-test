@@ -1,0 +1,11 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 2rem;
+  margin: 1.5rem 0;
+
+  & a.post-card:first-of-type {
+    grid-column: 1/3;
+  }
+}

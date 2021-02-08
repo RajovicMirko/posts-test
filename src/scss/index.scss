@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgb(16, 79, 151);
+  --gray-light-color: rgb(245, 245, 245);
+}
+
+.container {
+  padding: 0 1rem;
+  min-width: 100%;
+}
+
+@media (min-width: 512px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 5rem;
+  }
+}

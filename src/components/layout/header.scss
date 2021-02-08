@@ -1,0 +1,15 @@
+header {
+  background: var(--primary-color);
+  min-height: 190px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  & .title {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+  }
+}
